@@ -18,6 +18,9 @@ function decrement(){
     currentNumberWrapper.innerHTML = currentNumber;
     if(currentNumber < 0){
         currentNumberWrapper.style.color = 'red';
+        if(currentNumber <= -10){
+            currentNumber = currentNumber + 1;
+        }
     }
 }
 
