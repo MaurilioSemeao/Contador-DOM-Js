@@ -6,6 +6,9 @@ function increment(){
     currentNumberWrapper.innerHTML = currentNumber;
     if(currentNumber>=0){
         currentNumberWrapper.style.color = 'blue';
+        if(currentNumber >= 10){
+            currentNumber = currentNumber -1;
+        }
     }
 
 }
