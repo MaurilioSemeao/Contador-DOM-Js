@@ -33,4 +33,6 @@ button {
     align-items: center;
     margin: 0 20px;
     font-size: 16pt;
+    text-decoration: underline;
+    text-shadow: 1px 2px 3px ;
 }
